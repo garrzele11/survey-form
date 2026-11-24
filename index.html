@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+<h1>Technology & Digital Habits Survey</h1>
+<p>Help us understand how people use technology in their everyday lives!</p>
+<form>
+    <fieldset>
+        <legend>Personal Information</legend>
+        <label>Full-Name:</label><input type="text" id="full-name" name="full-name" required>
+        <label>Email:</label><input type="email" id="email" name="email" required>
+        <label>Age:</label><input type="number" id="age" name= "age" min="1" max="120" required>
+    </fieldset>
+
+    <fieldset>
+        <legend>Technology Usage</legend>
+        <label for="tech-usage">- What device do you use most?</label>
+        <select name="tech-usage" id="tech-usage">
+          <option value="">--Please choose an option--</option>
+          <option value="smartphone">Smartphone</option> 
+          <option value="laptop">Laptop</option>
+          <option value="desktop">Desktop</option>
+          <option value="tablet">Tablet</option>
+          <option value="console">Console</option>
+        </select>
+    </fieldset>
+
+     <fieldset>
+        <legend>Daily Screen Time</legend>
+        <label for="screen-time">- How many hours do you spend using technology daily?</label>
+        <select name="screen-time" id="screen-time">
+          <option value="">--Please choose an option--</option>
+          <option value=">2">less than 2 hours</option> 
+          <option value="2-4">2-4 hours</option>
+          <option value="5-7">5-7 hours</option>
+          <option value="8+">8+ hours</option>
+        </select>
+    </fieldset>
+
+       <fieldset>
+        <legend>Favorite technology activities</legend>
+        <label for="tech-act">- What do you primarily use technology for?</label>
+        <select name="tech-act" id="tech-act">
+          <option value="">--Please choose an option--</option>
+          <option value="gaming">Gaming</option> 
+          <option value="social-media">Social Media</option>
+          <option value="school/work">School/Work</option>
+          <option value="entertainment">Entertainment</option>
+          <option value="communication">Communication</option>
+        </select>
+    </fieldset>
+
+    <fieldset>
+        <legend>Social Media</legend>
+        <label>- Which platforms do you use?</label>
+        <input type="checkbox"><label>Instagram</label>
+        <input type="checkbox"><label>TikTok</label>
+        <input type="checkbox"><label>Youtube</label>
+        <input type="checkbox"><label>Reddit</label>
+        <input type="checkbox"><label>Facebook</label>
+        <input type="checkbox"><label>Other:</label><input type="text">
+    </fieldset>
+
+    <fieldset>
+        <legend>Final Thoughts</legend>
+        <label>- What is one piece of technology you couldn't live without?</label>
+        <textarea></textarea>
+    </fieldset>
+
+    <button type="submit">Submit Survey</button>
+</form>
+</body>
+</html>
